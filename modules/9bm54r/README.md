@@ -1,0 +1,19 @@
+# Ekip 1 — `9bm54r` (tema-ayakkabi)
+
+## Amaç
+Ekip üyeleri modülü. Fotoğraf, isim, unvan ve kısa biyografiyi responsive kart grid'inde gösterir. Fotoğraf yoksa ikon fallback, çok dilli unvan/biyografi ve animasyonlu giriş içerir.
+
+## Meta
+- version: `1.0.0`
+- category: `team`
+- icon: `groups`
+
+## Dosyalar
+- `back.js` — sunucu tarafı çizim
+- `index.html` — şablon
+- `index.jpeg` — önizleme görseli
+- `index.json` — tanım
+- `README.md` — bu belge
+
+## Not
+Bu klasör siteye özel kurulum örneğidir; şablon kaynağı `projeler/webyapar/web/tema-set/icerik/ayakkabi/` altında tutulur, burası elle değiştirilmez.

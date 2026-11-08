@@ -1,0 +1,40 @@
+{
+  "id": "yp91asx3je",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Üretim, tamir ve özel ölçü.",
+    "en": "Production, repair and custom measure.",
+    "ar": "التصنيع والإصلاح والقياس الخاص."
+  },
+  "keyword": {
+    "tr": "Atölye",
+    "en": "Workshop",
+    "ar": "الورشة"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "zf6hfd",
+      "n50i30"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:18.347Z",
+  "update": "2026-11-05T23:44:27.277Z"
+}

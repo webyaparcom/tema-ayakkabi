@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Deri ayakkabı ve aksesuar atölyesi; görseller temsilîdir.",
+    "en": "Leather footwear and accessories workshop; images are representative.",
+    "ar": "ورشة أحذية وملحقات من الجلد؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "deri ayakkabı, kundura atölyesi",
+    "en": "leather shoes, cobbler workshop",
+    "ar": "أحذية جلد، ورشة إسكافي"
+  },
+  "category": "Kurumsal",
+  "name": "Kadife Deri",
+  "domain": "ayakkabi.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "montserrat",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#8F5E3D",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "7px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "17px",
+    "--mx-radius-xl": "23px"
+  },
+  "icon": "icon.png"
+}
