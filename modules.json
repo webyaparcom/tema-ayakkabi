@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Ölçü randevusu",
+          "en": "Book a fitting",
+          "ar": "احجز موعد قياس"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "moda-hero-koleksiyon.webp",
+        "img": "moda-urun-canta.webp",
         "video": "",
         "poster": "",
         "alt": "Kadife Deri",
@@ -1534,29 +1545,29 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "El işçiliği",
-          "en": "Handwork",
+          "en": "Handcrafted",
           "ar": "عمل يدوي"
         },
         "title": {
-          "tr": "Ayakkabı, ayak ölçüsünde",
-          "en": "Shoe, to the measure of your foot",
-          "ar": "حذاء على قياس قدمك"
+          "tr": "Ayağınızın ölçüsüne göre ayakkabı",
+          "en": "Shoes made to the measure of your foot",
+          "ar": "حذاء على مقاس قدمك"
         },
         "metin": {
-          "tr": "Kadife Deri, el işçiliği ve özel ölçü çalışma yapar. Görseller temsilidir; metin ve kişisellikler kurgusaldır.",
-          "en": "Kadife leather does handwork and custom measure work. Images are representative and text and people are fictional.",
-          "ar": "تنفّذ كاديفة جلد عملًا يدويًا وقصّة خاصة. الصور تمثيلية والنصوص والشخصيات افتراضية."
+          "tr": "Kadife Deri; el yapımı deri ayakkabı, özel ölçü sipariş ve tamir hizmeti sunar. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Kadife Deri offers handmade leather shoes, custom-fit orders and repairs. Images are representative; all text is fictional.",
+          "ar": "تقدّم كاديفة ديري أحذية جلدية يدوية الصنع وطلبات بمقاس خاص وخدمة الإصلاح. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Koleksiyonu gör",
-          "en": "View the collection",
-          "ar": "استعرض المجموعة"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Ölçü iste",
-          "en": "Request a measure",
-          "ar": "اطلب قياسًا"
+          "tr": "Ölçü randevusu",
+          "en": "Book a fitting",
+          "ar": "احجز موعد قياس"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne yapıyoruz?",
-          "en": "What do we do?",
-          "ar": "ماذا نصنع?"
+          "tr": "Atölyeden rakamlar",
+          "en": "Numbers from the workshop",
+          "ar": "أرقام من الورشة"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,16 +1626,16 @@
         {
           "deger": 9,
           "sonek": "",
-          "ikon": "two_wheeler",
+          "ikon": "checkroom",
           "etiket": {
             "tr": "Klasik model",
             "en": "Classic models",
             "ar": "موديلات كلاسيكية"
           },
           "aciklama": {
-            "tr": "Atölye",
-            "en": "Workshop",
-            "ar": "الورشة"
+            "tr": "Atölyede",
+            "en": "In the workshop",
+            "ar": "في الورشة"
           }
         },
         {
@@ -1647,14 +1658,14 @@
           "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Günde özel ölçü",
-            "en": "Custom measure days",
-            "ar": "أيام القياس الخاص"
+            "tr": "İş günü",
+            "en": "Business days",
+            "ar": "أيام عمل"
           },
           "aciklama": {
-            "tr": "Tahmini",
-            "en": "Estimated",
-            "ar": "تقديري"
+            "tr": "Özel ölçüde tahmini süre",
+            "en": "Estimated time for custom fits",
+            "ar": "المدة التقديرية للقياس الخاص"
           }
         },
         {
@@ -1667,9 +1678,9 @@
             "ar": "ألوان الجلد"
           },
           "aciklama": {
-            "tr": "Standart kart",
-            "en": "Standard card",
-            "ar": "بطاقة قياسية"
+            "tr": "Standart renk kartı",
+            "en": "Standard colour card",
+            "ar": "بطاقة الألوان القياسية"
           }
         }
       ],
@@ -1700,41 +1711,67 @@
           "ar": "الورشة"
         },
         "title": {
-          "tr": "Ne yapıyoruz?",
-          "en": "What do we do?",
-          "ar": "ماذا نصنع?"
+          "tr": "Atölyede neler var?",
+          "en": "What is in the workshop?",
+          "ar": "ماذا في الورشة؟"
         },
         "description": {
           "tr": "Üretim, tamir ve özel ölçü.",
-          "en": "Production, repair and custom measure.",
-          "ar": "التصنيع والإصلاح والقياس الخاص."
+          "en": "Making, repair and custom fitting.",
+          "ar": "تصنيع وإصلاح وقياس خاص."
         }
       },
       "data": [
         {
-          "icon": "two_wheeler",
-          "name": {
-            "tr": "Klasik ayakkabı",
-            "en": "Classic shoe",
-            "ar": "حذاء كلاسيكي"
-          },
-          "description": {
-            "tr": "Deri klasik modeller; 6 numara aralığı.",
-            "en": "Leather classic models; a size range of 6.",
-            "ar": "موديلات كلاسيكية من الجلد؛ نطاق مقاسات من ستة."
-          }
-        },
-        {
-          "icon": "favorite",
+          "icon": "straighten",
           "name": {
             "tr": "Özel ölçü",
-            "en": "Custom measure",
+            "en": "Custom fit",
             "ar": "قياس خاص"
           },
           "description": {
-            "tr": "Ayak ölçüsüne özel üretim çalışması.",
-            "en": "A custom production work to foot measure.",
-            "ar": "عمل إنتاج خاص على قياس القدم."
+            "tr": "Ayak ölçünüze göre el yapımı ayakkabı.",
+            "en": "Handmade shoes made to your foot measurements.",
+            "ar": "حذاء يدوي الصنع على مقاسات قدمك."
+          }
+        },
+        {
+          "icon": "work",
+          "name": {
+            "tr": "Çanta ve kemer",
+            "en": "Bags and belts",
+            "ar": "حقائب وأحزمة"
+          },
+          "description": {
+            "tr": "Ayakkabı rengiyle uyumlu deri aksesuarlar.",
+            "en": "Leather accessories matched to your shoe colour.",
+            "ar": "إكسسوارات جلدية متناسقة مع لون حذائك."
+          }
+        },
+        {
+          "icon": "inventory_2",
+          "name": {
+            "tr": "Paketleme ve teslim",
+            "en": "Packing and delivery",
+            "ar": "التغليف والتسليم"
+          },
+          "description": {
+            "tr": "Özenli paketleme; Gaziantep içi teslimat (kurgusal bilgi).",
+            "en": "Careful packing; delivery within Gaziantep (fictional information).",
+            "ar": "تغليف عناية؛ وتوصيل داخل غازي عنتاب (معلومات افتراضية)."
+          }
+        },
+        {
+          "icon": "checkroom",
+          "name": {
+            "tr": "Klasik modeller",
+            "en": "Classic models",
+            "ar": "موديلات كلاسيكية"
+          },
+          "description": {
+            "tr": "Deri klasik ayakkabılar; geniş numara aralığı.",
+            "en": "Classic leather shoes in a wide range of sizes.",
+            "ar": "أحذية جلدية كلاسيكية بمدى واسع من المقاسات."
           }
         },
         {
@@ -1745,48 +1782,22 @@
             "ar": "إصلاح"
           },
           "description": {
-            "tr": "Taban, topuk ve deri onarım.",
+            "tr": "Taban, topuk ve deri onarımı.",
             "en": "Sole, heel and leather repair.",
             "ar": "إصلاح النعل والكعب والجلد."
           }
         },
         {
-          "icon": "inventory",
-          "name": {
-            "tr": "Çanta ve kemer",
-            "en": "Bag and belt",
-            "ar": "حقيبة وحزام"
-          },
-          "description": {
-            "tr": "Aksesuar; ayakkabı rengiyle uyumlu.",
-            "en": "Accessories; matched to the shoe colour.",
-            "ar": "إكسسوارات؛ متناسقة مع لون الحذاء."
-          }
-        },
-        {
           "icon": "palette",
           "name": {
-            "tr": "Renk seçimi",
-            "en": "Colour choice",
-            "ar": "اختيار اللون"
+            "tr": "Renk ve deri seçimi",
+            "en": "Colour and leather choice",
+            "ar": "اختيار اللون والجلد"
           },
           "description": {
-            "tr": "4 renk deri kartı.",
-            "en": "4-colour leather card.",
-            "ar": "بطاقة جلد بأربعة ألوان."
-          }
-        },
-        {
-          "icon": "delivery_dining",
-          "name": {
-            "tr": "Teslimat",
-            "en": "Delivery",
-            "ar": "التسليم"
-          },
-          "description": {
-            "tr": "Gaziantep içi teslim; demo bilgi.",
-            "en": "Delivery within Gaziantep; demo info.",
-            "ar": "توصيل داخل غازي عنتاب؛ معلومات تجريبية."
+            "tr": "Dört renkli deri kartından seçim.",
+            "en": "Choose from a four-colour leather card.",
+            "ar": "الاختيار من بطاقة جلد بأربعة ألوان."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl üretiriz?",
+          "en": "How we make it",
+          "ar": "كيف نصنعه؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Ölçüden teslime dört adım",
+          "en": "Four steps from measuring to delivery",
+          "ar": "أربع خطوات من القياس إلى التسليم"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Her ayakkabı aynı özenle yapılır.",
+          "en": "Every pair is made with the same care.",
+          "ar": "يُصنع كل حذاء بالعناية نفسها."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1837,13 +1848,13 @@
           "year": "01",
           "title": {
             "tr": "Ayak ölçüsü",
-            "en": "Foot measure",
+            "en": "Foot measurement",
             "ar": "قياس القدم"
           },
           "text": {
-            "tr": "Soket alınır; numara ve genişlik yazılır.",
-            "en": "The socket is taken; number and width are written.",
-            "ar": "يُؤخذ الجورب ويُكتب المقاس والعرض."
+            "tr": "Ayağınızın ölçüsü ve genişliği alınır.",
+            "en": "Your foot length and width are measured.",
+            "ar": "يُقاس طول قدمك وعرضها."
           }
         },
         {
@@ -1854,35 +1865,35 @@
             "ar": "اختيار الجلد"
           },
           "text": {
-            "tr": "Renk ve doküman seçimi.",
-            "en": "Choice of colour and document.",
-            "ar": "اختيار اللون والوثيقة."
+            "tr": "Renk ve deri türü seçilir.",
+            "en": "The colour and type of leather are chosen.",
+            "ar": "يُختار اللون ونوع الجلد."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Üretim",
-            "en": "Production",
+            "en": "Making",
             "ar": "التصنيع"
           },
           "text": {
-            "tr": "El işçiliği ile montaj.",
-            "en": "Assembly with handwork.",
-            "ar": "التركيب باليد."
+            "tr": "Kesim ve montaj el işçiliğiyle yapılır.",
+            "en": "Cutting and assembly are done by hand.",
+            "ar": "يتم القص والتركيب يدويًا."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Deneme",
-            "en": "Fitting",
-            "ar": "ملاءمة"
+            "tr": "Prova ve teslim",
+            "en": "Fitting and delivery",
+            "ar": "التجربة والتسليم"
           },
           "text": {
-            "tr": "Gerekiyorsa ayar; teslim.",
-            "en": "Adjustment if needed; delivery.",
-            "ar": "ضبط عند الحاجة؛ التسليم."
+            "tr": "Gerekirse ayar yapılır, ardından teslim edilir.",
+            "en": "Adjustments are made if needed, then the shoes are delivered.",
+            "ar": "تُجرى التعديلات عند الحاجة ثم يُسلَّم الحذاء."
           }
         }
       ],
@@ -1911,19 +1922,19 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Ustalarımız",
+          "en": "Our craftspeople",
+          "ar": "حرفيونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Atölyedeki ustalar",
+          "en": "The people in the workshop",
+          "ar": "من يعملون في الورشة"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1932,14 +1943,14 @@
         {
           "name": "Hakan Aksoy",
           "role": {
-            "tr": "Baş kundura",
-            "en": "Master cobbler",
-            "ar": "الإسكافي الأكبر"
+            "tr": "Usta kunduracı",
+            "en": "Master shoemaker",
+            "ar": "إسكافي ماهر"
           },
           "bio": {
-            "tr": "32 yıl kundura; 4 nesil.",
-            "en": "32 years of cobbler work; 4 generations.",
-            "ar": "٣٢ عامًا في الإسكافي؛ أربعة أجيال."
+            "tr": "32 yıllık meslek; dördüncü kuşak.",
+            "en": "32 years in the trade; fourth generation.",
+            "ar": "٣٢ عامًا في المهنة؛ الجيل الرابع."
           },
           "img": ""
         },
@@ -1948,24 +1959,24 @@
           "role": {
             "tr": "Tasarım",
             "en": "Design",
-            "ar": "تصميم"
+            "ar": "التصميم"
           },
           "bio": {
-            "tr": "Model seçimi ve deri kartı.",
-            "en": "Model selection and leather card.",
-            "ar": "اختيار الموديلات وبطاقة الجلد."
+            "tr": "Model ve deri kartı seçimi.",
+            "en": "Model and leather card selection.",
+            "ar": "اختيار الموديل وبطاقة الجلد."
           },
           "img": ""
         },
         {
           "name": "Tarık Elmas",
           "role": {
-            "tr": "Tamir",
-            "en": "Repair",
-            "ar": "إصلاح"
+            "tr": "Tamir ustası",
+            "en": "Repair specialist",
+            "ar": "أخصائي إصلاح"
           },
           "bio": {
-            "tr": "Taban ve deri onarım.",
+            "tr": "Taban ve deri onarımı.",
             "en": "Sole and leather repair.",
             "ar": "إصلاح النعل والجلد."
           },
@@ -2008,9 +2019,9 @@
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2019,31 +2030,31 @@
         {
           "name": "Aylin S.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميلة"
+            "tr": "Özel ölçü müşterisi",
+            "en": "Custom-fit customer",
+            "ar": "عميلة طلب بمقاس خاص"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Özel ölçü ayakkabı 2 haftada ayağım.",
-            "en": "Custom measure shoes on my feet in 2 weeks.",
-            "ar": "حذاء مقاس خاص على قدمي خلال أسبوعين."
+            "tr": "Özel ölçü ayakkabım iki haftada hazırdı.",
+            "en": "My custom-fit shoes were ready in two weeks.",
+            "ar": "كان حذائي بمقاس خاص جاهزًا خلال أسبوعين."
           }
         },
         {
           "name": "Kemal Ö.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميل"
+            "tr": "Tamir müşterisi",
+            "en": "Repair customer",
+            "ar": "عميل إصلاح"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Taban onarımı aynı gün teslim.",
-            "en": "Sole repair delivered same day.",
-            "ar": "إصلاح النعل وتسليم في نفس اليوم."
+            "tr": "Taban onarımı aynı gün teslim edildi.",
+            "en": "The sole repair was delivered the same day.",
+            "ar": "سُلِّم إصلاح النعل في اليوم نفسه."
           }
         },
         {
@@ -2057,8 +2068,8 @@
           "img": "",
           "text": {
             "tr": "Renk kartı seçimi kolaylaştırdı.",
-            "en": "The colour card made the choice easier.",
-            "ar": "بطاقة الألوان سهّلت الاختيار."
+            "en": "The colour card made choosing easier.",
+            "ar": "سهّلت بطاقة الألوان عملية الاختيار."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "12px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Atölyeden",
+          "en": "From the workshop",
+          "ar": "من الورشة"
         },
         "title": {
-          "tr": "Ne yapıyoruz?",
+          "tr": "Neler yapıyoruz?",
           "en": "What do we do?",
-          "ar": "ماذا نصنع?"
+          "ar": "ماذا نفعل؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Klasik ayakkabı",
-            "en": "Classic shoe",
-            "ar": "حذاء كلاسيكي"
+            "tr": "Özel ölçü",
+            "en": "Custom fit",
+            "ar": "قياس خاص"
           },
           "metin": {
-            "tr": "Deri klasik modeller; 6 numara aralığı.",
-            "en": "Leather classic models; a size range of 6.",
-            "ar": "موديلات كلاسيكية من الجلد؛ نطاق مقاسات من ستة."
+            "tr": "Ayak ölçünüze göre el yapımı ayakkabı.",
+            "en": "Handmade shoes made to your foot measurements.",
+            "ar": "حذاء يدوي الصنع على مقاسات قدمك."
           },
-          "img": "moda-urun-palto.webp",
+          "img": "moda-atolye.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Özel ölçü",
-            "en": "Custom measure",
-            "ar": "قياس خاص"
+            "tr": "Çanta ve kemer",
+            "en": "Bags and belts",
+            "ar": "حقائب وأحزمة"
           },
           "metin": {
-            "tr": "Ayak ölçüsüne özel üretim çalışması.",
-            "en": "A custom production work to foot measure.",
-            "ar": "عمل إنتاج خاص على قياس القدم."
+            "tr": "Ayakkabı rengiyle uyumlu deri aksesuarlar.",
+            "en": "Leather accessories matched to your shoe colour.",
+            "ar": "إكسسوارات جلدية متناسقة مع لون حذائك."
           },
           "img": "moda-urun-canta.webp",
           "alt": {
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Tamir",
-            "en": "Repair",
-            "ar": "إصلاح"
+            "tr": "Paketleme ve teslim",
+            "en": "Packing and delivery",
+            "ar": "التغليف والتسليم"
           },
           "metin": {
-            "tr": "Taban, topuk ve deri onarım.",
-            "en": "Sole, heel and leather repair.",
-            "ar": "إصلاح النعل والكعب والجلد."
+            "tr": "Özenli paketleme; Gaziantep içi teslimat (kurgusal bilgi).",
+            "en": "Careful packing; delivery within Gaziantep (fictional information).",
+            "ar": "تغليف عناية؛ وتوصيل داخل غازي عنتاب (معلومات افتراضية)."
           },
-          "img": "moda-atolye.webp",
+          "img": "moda-paket.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "12px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Tedarikçilerimiz",
+          "en": "Our suppliers",
+          "ar": "مورّدونا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tedarikçi adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional supplier names; they do not belong to a real organisation.",
+          "ar": "أسماء موردين افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2249,16 +2260,16 @@
           "name": "Demo Deri"
         },
         {
-          "name": "Demo Çanta"
+          "name": "Demo Taban"
         },
         {
-          "name": "Demo Kemer"
+          "name": "Demo Bağcık"
         },
         {
-          "name": "Demo Terlik"
+          "name": "Demo Kutu"
         },
         {
-          "name": "Demo Bot"
+          "name": "Demo Boya"
         },
         {
           "name": "Demo Aksesuar"
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Özel ölçü ne kadar sürer?",
+            "en": "How long does a custom fit take?",
+            "ar": "كم تستغرق عملية القياس الخاص؟"
+          },
+          "answer": {
+            "tr": "Tahminen 10–14 iş günü sürer (kurgusal bilgi).",
+            "en": "It takes an estimated 10–14 business days (fictional information).",
+            "ar": "تستغرق تقديريًا من 10 إلى 14 يوم عمل (معلومات افتراضية)."
+          },
           "soru": {
             "tr": "Özel ölçü ne kadar sürer?",
-            "en": "How long does a custom measure take?",
-            "ar": "كم يستغرق القياس الخاص?"
+            "en": "How long does a custom fit take?",
+            "ar": "كم تستغرق عملية القياس الخاص؟"
           },
           "cevap": {
-            "tr": "Tahmini 10–14 iş gün sürer; demo metni veridir.",
-            "en": "Estimated 10–14 business days; the demo text is data.",
-            "ar": "يتوقع 10–14 يوم عمل؛ النص التجريبي بيانات."
+            "tr": "Tahminen 10–14 iş günü sürer (kurgusal bilgi).",
+            "en": "It takes an estimated 10–14 business days (fictional information).",
+            "ar": "تستغرق تقديريًا من 10 إلى 14 يوم عمل (معلومات افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Fiyat nasıl belirlenir?",
+            "en": "How is the price determined?",
+            "ar": "كيف يُحدَّد السعر؟"
+          },
+          "answer": {
+            "tr": "Model, deri ve işçiliğe göre teklifle belirlenir.",
+            "en": "A quote is prepared according to the model, leather and workmanship.",
+            "ar": "يُعدّ عرض السعر حسب الموديل والجلد والصنعة."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Fiyat nasıl belirlenir?",
+            "en": "How is the price determined?",
+            "ar": "كيف يُحدَّد السعر؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Model, deri ve işçiliğe göre teklifle belirlenir.",
+            "en": "A quote is prepared according to the model, leather and workmanship.",
+            "ar": "يُعدّ عرض السعر حسب الموديل والجلد والصنعة."
           }
         },
         {
+          "question": {
+            "tr": "Tamir için ayakkabıyı getirmem gerekir mi?",
+            "en": "Do I need to bring the shoes in for repair?",
+            "ar": "هل يجب أن أحضر الحذاء للإصلاح؟"
+          },
+          "answer": {
+            "tr": "Evet; onarım için ayakkabıyı atölyede görmemiz gerekir.",
+            "en": "Yes; we need to see the shoes in the workshop before repairing them.",
+            "ar": "نعم؛ نحتاج إلى فحص الحذاء في الورشة قبل إصلاحه."
+          },
           "soru": {
             "tr": "Tamir için ayakkabıyı getirmem gerekir mi?",
-            "en": "Do I have to bring the shoe for repair?",
-            "ar": "يجب أن أحضر الحذاء للإصلاح?"
+            "en": "Do I need to bring the shoes in for repair?",
+            "ar": "هل يجب أن أحضر الحذاء للإصلاح؟"
           },
           "cevap": {
-            "tr": "Evet; ölçü ve onarım için ayakkabı gerekir.",
-            "en": "Yes; repair needs the shoe for measure.",
-            "ar": "نعم؛ الإصلاح يحتاج الحذاء للقياس."
+            "tr": "Evet; onarım için ayakkabıyı atölyede görmemiz gerekir.",
+            "en": "Yes; we need to see the shoes in the workshop before repairing them.",
+            "ar": "نعم؛ نحتاج إلى فحص الحذاء في الورشة قبل إصلاحه."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "12px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Özel ölçü randevusu",
+          "en": "Custom-fit appointment",
+          "ar": "موعد القياس الخاص"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Ne istediğinizi kısaca yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us briefly what you need; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب باختصار ما تحتاجه ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Kadife Deri",
@@ -2421,14 +2472,14 @@
           "ar": "Kadife Deri"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
-          "tr": "Küçük Sanayi Sitesi Bloklar 12, Oğuzeli, Gaziantep (kurgusal adres)",
-          "en": "Kucuk Sanayi Sitesi Block 12, Oguzeli, Gaziantep (fictional address)",
-          "ar": "مجمع الصنaye الصغير، كتلة 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Küçük Sanayi Sitesi 12. Blok, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "Small Industrial Estate, Block 12, Oguzeli, Gaziantep (fictional address)",
+          "ar": "مجمع الصناعات الصغيرة، المبنى 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 023 03 03",
         "whatsapp": "903420230303",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Özel ölçü ayakkabı",
+              "en": "Custom-fit shoes",
+              "ar": "حذاء بمقاس خاص"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Tamir",
+              "en": "Repair",
+              "ar": "إصلاح"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Çanta ve kemer",
+              "en": "Bags and belts",
+              "ar": "حقائب وأحزمة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,9 +2691,9 @@
           "ar": "Kadife Deri"
         },
         "description": {
-          "tr": "Kadife Dermi 1998den beri kundura ve özel ölçü çalışması yapar. Bu bir demo sayfasıdır; ölçüler ve rakamlar kurgusaldır.",
-          "en": "Kadife leather has worked on cobbler and custom measure since 1998. This is a demo page and the measures and figures are fictional.",
-          "ar": "تعمل كاديفة جلد منذ عام 1998 في الإسكافي والقياس الخاص. هذه صفحة تجريبية والقياسات والأرقام افتراضية."
+          "tr": "Kadife Deri, 1998’den beri el yapımı ayakkabı, özel ölçü ve tamir işi yapar. Bu sayfa demodur; ad ve rakamlar kurgusaldır.",
+          "en": "Kadife Deri has made handmade shoes, custom-fit orders and repairs since 1998. This page is a demo; names and figures are fictional.",
+          "ar": "تعمل كاديفة ديري منذ عام 1998 في الأحذية اليدوية والقياس الخاص والإصلاح. هذه الصفحة تجريبية والأسماء والأرقام افتراضية."
         },
         "name2": {
           "tr": "Tek atölye",
@@ -2650,22 +2702,22 @@
         },
         "spot2": {
           "tr": "Üretim ve tamir aynı çatı altında.",
-          "en": "Production and repair under the same roof.",
-          "ar": "الإنتاج والإصلاح تحت سقف واحد."
+          "en": "Making and repair under the same roof.",
+          "ar": "التصنيع والإصلاح تحت سقف واحد."
         },
-        "icon2": "roofing",
+        "icon2": "handyman",
         "name3": {
           "tr": "Ölçü defteri",
-          "en": "Measure book",
-          "ar": "دفتر القياس"
+          "en": "Measurement book",
+          "ar": "دفتر القياسات"
         },
         "spot3": {
-          "tr": "Her müşterinin ölçü defteri saklanır.",
-          "en": "Every customer’s measure book is kept.",
-          "ar": "يُحفظ دفتر قياس كل عميل."
+          "tr": "Her müşterinin ayak ölçüsü deftere işlenir; tekrar siparişte yeniden ölçü gerekmez.",
+          "en": "Each customer’s foot measurements are recorded, so repeat orders need no new fitting.",
+          "ar": "تُسجَّل قياسات قدم كل عميل في الدفتر فلا حاجة لقياس جديد عند إعادة الطلب."
         },
-        "icon3": "schedule",
-        "img": "moda-kategori-1.webp",
+        "icon3": "straighten",
+        "img": "moda-atolye.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2737,9 +2789,9 @@
         "whatsapp": "903420230303",
         "email": "bilgi@kadifederi.example",
         "address": {
-          "tr": "Küçük Sanayi Sitesi Bloklar 12, Oğuzeli, Gaziantep (kurgusal adres)",
-          "en": "Kucuk Sanayi Sitesi Block 12, Oguzeli, Gaziantep (fictional address)",
-          "ar": "مجمع الصنaye الصغير، كتلة 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Küçük Sanayi Sitesi 12. Blok, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "Small Industrial Estate, Block 12, Oguzeli, Gaziantep (fictional address)",
+          "ar": "مجمع الصناعات الصغيرة، المبنى 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:30 – 19:00",
+          "en": "Mon–Sat 09:30 – 19:00",
+          "ar": "الاثنين–السبت 09:30 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "12px",
         "title": {
-          "tr": "Özel ölçü için görüşme",
-          "en": "Meeting for a custom measure",
-          "ar": "اجتماع للقياس الخاص"
+          "tr": "Özel ölçü için randevu alın",
+          "en": "Book a custom-fit appointment",
+          "ar": "احجز موعدًا للقياس الخاص"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2893,7 +2945,7 @@
         "waMessage": {
           "tr": "Merhaba, Kadife Deri ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Kadife Deri.",
-          "ar": "مرحبًا، أودّ التواصل مع Kadife Deri."
+          "ar": "مرحبًا، أودّ التواصل مع كاديفة ديري."
         },
         "img": "",
         "alt": {
@@ -2951,7 +3003,7 @@
         "about": {
           "tr": "Kadife Deri demo temadır; içerik kurgusaldır.",
           "en": "Kadife Deri is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Kadife Deri)؛ المحتوى افتراضي."
+          "ar": "كاديفة ديري قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3054,9 +3106,9 @@
         ],
         "hours": [],
         "address": {
-          "tr": "Küçük Sanayi Sitesi Bloklar 12, Oğuzeli, Gaziantep (kurgusal adres)",
-          "en": "Kucuk Sanayi Sitesi Block 12, Oguzeli, Gaziantep (fictional address)",
-          "ar": "مجمع الصنaye الصغير، كتلة 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Küçük Sanayi Sitesi 12. Blok, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "Small Industrial Estate, Block 12, Oguzeli, Gaziantep (fictional address)",
+          "ar": "مجمع الصناعات الصغيرة، المبنى 12، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 023 03 03",
         "email": "bilgi@kadifederi.example",

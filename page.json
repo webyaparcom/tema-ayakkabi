@@ -9,8 +9,8 @@
       },
       "description": {
         "tr": "Üretim, tamir ve özel ölçü.",
-        "en": "Production, repair and custom measure.",
-        "ar": "التصنيع والإصلاح والقياس الخاص."
+        "en": "Making, repair and custom fitting.",
+        "ar": "تصنيع وإصلاح وقياس خاص."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Deri ayakkabı atölyesi.",
-        "en": "Leather shoe workshop.",
-        "ar": "ورشة أحذية جلد."
+        "tr": "El yapımı deri ayakkabı atölyesi.",
+        "en": "Handmade leather shoe workshop.",
+        "ar": "ورشة أحذية جلدية يدوية الصنع."
       }
     },
     {

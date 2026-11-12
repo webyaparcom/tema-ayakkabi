@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Deri ayakkabı ve aksesuar atölyesi; görseller temsilîdir.",
-    "en": "Leather footwear and accessories workshop; images are representative.",
-    "ar": "ورشة أحذية وملحقات من الجلد؛ الصور تمثيلية."
+    "tr": "El yapımı deri ayakkabı, özel ölçü sipariş, tamir ve deri aksesuar atölyesi. Görseller temsilîdir.",
+    "en": "A workshop for handmade leather shoes, custom-fit orders, repairs and leather accessories. Images are representative.",
+    "ar": "ورشة أحذية جلدية يدوية الصنع وطلبات بمقاس خاص وإصلاح وإكسسوارات جلدية؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "deri ayakkabı, kundura atölyesi",
-    "en": "leather shoes, cobbler workshop",
-    "ar": "أحذية جلد، ورشة إسكافي"
+    "tr": "deri ayakkabı, özel ölçü, ayakkabı tamiri, kunduracı",
+    "en": "leather shoes, custom-fit shoes, shoe repair, shoemaker",
+    "ar": "أحذية جلدية، حذاء بمقاس خاص، إصلاح أحذية، إسكافي"
   },
   "category": "Kurumsal",
   "name": "Kadife Deri",
